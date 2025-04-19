@@ -29,9 +29,20 @@
      justify-content: center;
      width: 100%;
      margin-left: 0px;
+     background-color: white;
    }
    .banner-Section{
     display: none;
+   }
+   .orderBanner{
+      flex-direction: column;
+      padding: 10px;
+   }
+   .categorySection{
+       flex-direction:row;
+       flex-wrap: wrap;
+       align-self: center;
+       margin: 20px;
    }
 }
   
