@@ -101,11 +101,11 @@ header{
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        padding: 5px;
-        background-color: white;
-        border: 2px transparent;
+        
 }
-
-.categoryItem img{
-        width: 120px;
-}
+.categoryItem {
+     flex-basis: 10%;       
+}   
+.categoryItem img{ 
+      width: 100%; 
+}    

@@ -38,11 +38,8 @@
       flex-direction: column;
       padding: 10px;
    }
-   .categorySection{
-       flex-direction:row;
-       flex-wrap: wrap;
-       align-self: center;
-       margin: 20px;
+   .categoryItem{
+       flex-basis: 25%;
    }
 }
   
