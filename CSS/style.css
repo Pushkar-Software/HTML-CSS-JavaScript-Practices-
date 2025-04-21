@@ -109,3 +109,25 @@ header{
 .categoryItem img{ 
       width: 100%; 
 }    
+.productRow{
+        width: 100%;
+        display: flex;  
+        margin: 30px 0px;      
+}
+.productItem{
+        flex-basis: 1.5%;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+}
+.productImg{
+        text-align: center;
+        
+}
+.productImg img{
+        width: 150px;
+}
+.productRow h1 a{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
